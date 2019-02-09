@@ -1,0 +1,21 @@
+<div>
+    <TestTitle />
+    <TestDescription />
+    <TestStart />
+    <TestQuestion question={store.getState().question[0].name} />
+    <TestAnswers answer1={store.getState().question[0].answer[0]}
+        answer2={store.getState().question[0].answer[1]}
+        answer3={store.getState().question[0].answer[2]}
+        answer4={store.getState().question[0].answer[3]} />
+    <TestNextQuestion />
+    <TestResult result={'Correct: '
+        + store.getState().answerCorrect.length
+        + ' Wrong: '
+        + store.getState().answerWrong.length} />
+    <SnowCorrectAnswer correctAnswerName={store.getState().answerCorrect[0].number +
+        ') ' + store.getState().answerCorrect[0].name
+        + ' ' + store.getState().answerCorrect[0].userAnswer} />
+    <SnowWrongAnswer wrongAnswerName={store.getState().answerWrong[0].number +
+        ') ' + store.getState().answerWrong[0].name
+        + ' ' + store.getState().answerWrong[0].userAnswer} />
+</div>

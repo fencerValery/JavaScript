@@ -1,0 +1,63 @@
+.test-title{
+    
+}
+
+.test-description{
+
+}
+
+.test-start{
+
+}
+
+.javascript-test-question{
+
+}
+
+.javascript-test-answer-checkbox{
+    float: left;
+}
+
+.javascript-test-answer{
+
+}
+
+.test-next-question{
+
+}
+
+.test-result{
+
+}
+
+.button-backward{
+    width: 40px;
+    height:180px;
+    float: left;
+}
+
+.show-answer{
+    width: 340px;
+    height: 100px;
+    margin-top: 1px;
+    margin-left: 100px;
+    float: left;
+}
+
+
+.button-forward{
+    width: 40px;
+    height: 180px;
+
+}
+
+.button-exit{
+    width: 140px;
+    height: 30px;
+    margin-left: 190px;
+}
+
+.label-answer{
+    margin-left: 190px;
+
+}
